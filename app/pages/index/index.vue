@@ -1,8 +1,8 @@
 <!--
  * @Author: lijiecong 2239108915@qq..com
  * @Date: 2026-04-08 09:49:37
- * @LastEditors: lijiecong 2239108915@qq..com
- * @LastEditTime: 2026-04-08 15:20:06
+ * @LastEditors: 李杰聪 2239108915@qq.com
+ * @LastEditTime: 2026-04-08 21:22:17
  * @FilePath: \my_nuxt\app\pages\index\index.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -13,6 +13,7 @@
     <van-button type="default">默认按钮</van-button>
     <van-button type="danger">危险按钮</van-button>
     <van-button type="warning">警告按钮</van-button>
+    <NuxtTime :datetime="Date.now()" />
 
     <div class="text-[red]">
       <Icon name="weui:home-filled" size="54" color="red" />
