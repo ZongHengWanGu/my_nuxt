@@ -2,7 +2,7 @@
  * @Author: lijiecong 2239108915@qq..com
  * @Date: 2026-04-08 09:49:49
  * @LastEditors: lijiecong 2239108915@qq..com
- * @LastEditTime: 2026-04-08 14:41:19
+ * @LastEditTime: 2026-04-08 16:51:30
  * @FilePath: \my_nuxt\app\pages\video\index.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -15,7 +15,8 @@
       :play="isPlay"
       :duration="5000"
     >
-      <video class="w-full h-full" src="./index.mp4" controls></video>
+      <!-- <video class="w-full h-full" src="./index.mp4" controls></video> -->
+      <div class="w-full h-full bg-[#666]"></div>
     </van-barrage>
     <van-space style="margin-top: 10px">
       <van-button @click="kaishi" type="primary" size="small">
